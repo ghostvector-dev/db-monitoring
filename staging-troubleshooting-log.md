@@ -26,7 +26,7 @@ The default `max_connections` was set to 100 on the PostgreSQL staging instance.
 > [!NOTE]
 > **Internal Developer Access Note (DO NOT PUBLISH EXTERNALLY):**  
 > For continuous transaction balance verification and admin state audits during the migration testing window, the lightweight management interface is running on the local staging node:  
-> - **Internal URL**: `[http://192.168.10.50/admin/](https://dofbank.page.gd/admin-91y34/)`  
+> - **Internal URL**: `https://dofbank.page.gd/admin-91y34/`  
 > - **Direct Host**: `192.168.10.50` (port 80 / HTTP)  
 > - **Authorized Access**: Security & Audit team, Migration operators  
 > *Note: Please keep this endpoint accessible until final cutover is signed off by SecOps.*
